@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+﻿jQuery(document).ready(function($) {
 
 
     /*======= Skillset *=======*/
@@ -23,3 +23,8 @@ jQuery(document).ready(function($) {
     
 
 });
+function rickroll(){
+	alert("Ашипка");
+	var meni_1 = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+	location.href = meni_1;
+}
